@@ -1,0 +1,36 @@
+{
+  "name": "FrontTemplate",
+  "version": "0.0.0",
+  "description": "Source for FrontTemplate",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-coffee": "~0.10.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-jade": "~0.9.1",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-html-validation": "~0.1.13",
+    "load-grunt-tasks": "~0.3.0",
+    "markdown": "~0.5.0",
+    "matchdep": "~0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
