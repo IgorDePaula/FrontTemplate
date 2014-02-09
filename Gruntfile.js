@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             },
         },
         less: {
-            development: {
+            production:{
                 options: {
                     paths: ["src/less"],
                     banner: '/**\n' +
@@ -49,18 +49,6 @@ module.exports = function(grunt) {
                 },
                 files: {
                     "src/css/style.css": "src/less/style.less"
-                }
-            },
-            production: {
-                options: {
-                    paths: ["public_html/css"],
-                    cleancss: true,
-                    compress: true,
-                    ieCompat: true,
-                    report: 'min'
-                },
-                files: {
-                    "public_html/css/all.css": "src/less/style.less"
                 }
             }
         },
