@@ -91,8 +91,7 @@ module.exports = function(grunt) {
                     client: false,
                     pretty: true
                 },
-                files: {
-                    'public_html/nav.html': 'src/jade/nav.jade',
+                files: {                    
                     'public_html/index.html': 'src/jade/index.jade'
                 }
             }
