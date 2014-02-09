@@ -1,2 +1,2 @@
-test = (val)->
- (val * 2)
+test = (val,exp)->
+ (val * exp)

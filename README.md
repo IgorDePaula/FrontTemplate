@@ -7,4 +7,10 @@ The tasks are automated with grunt to parse the scripts from source code to comp
 
  `npm install`
 
+And run grunt:
+
+ `grunt`
+
+The grunt watch all tasks for html, javascript and css files modifications.
+
 Now have fun programming html, css and javascript.
